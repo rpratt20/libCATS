@@ -120,6 +120,7 @@ int cats_packet_semi_decode(cats_packet_t* pkt, uint8_t* buf, size_t buf_len)
 	return CATS_SUCCESS;
 }
 
+int cats_packet_decode(cats_packet_t* pkt, uint8_t* buf, size_t buf_len)
 {
 	assert(pkt != NULL);
 	assert(buf != NULL);
